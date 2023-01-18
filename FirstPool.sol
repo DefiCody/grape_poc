@@ -68,9 +68,8 @@ contract WineRewardPool is VRFConsumerBaseV2 {
     VRFCoordinatorV2Interface COORDINATOR;
  
     uint64 s_subscriptionId; 
-    address vrfCoordinator = 0x2Ca8E0C643bDe4C2E08ab1fA0da3401AdAD7734D; 
-    bytes32 s_keyHash =
-        0x79d3d8832d904592c0bf9818b621522c988bb8b0c05cdc3b15aea1b6e8db0c15; 
+    address vrfCoordinator = 0xc587d9053cd1118f25F645F9E08BB98c9712A4EE; 
+    bytes32 s_keyHash =0x79d3d8832d904592c0bf9818b621522c988bb8b0c05cdc3b15aea1b6e8db0c15; 
     uint32 callbackGasLimit = 40000;
  
     uint16 requestConfirmations = 3;
